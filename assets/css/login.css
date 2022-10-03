@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/login_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 登录盒子 */
+.login-box {
+  width: 400px;
+  height: 360px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* 登录部分 */
+/* 盒子里的头部设置 */
+.title-box {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+
+.layui-form {
+  margin: 0 30px;
+}
+
+/* 去注册账号设置 */
+.layui-form-item a{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 注册页面部分 */
+.reg-wrap {
+  display: none;
+}
+/* 字体图标 */
+.layui-form-item{
+  position: relative;
+}
+
+.layui-icon{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.layui-form-item input{
+ padding: 0 30px;
+}
